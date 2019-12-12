@@ -16,17 +16,17 @@ body {
 }
 
 .calculator {
-	height: 90%;
 	width: 40%;
 	border: solid 2px gray;
 	margin:auto;
 	background-color: #fff;
 	display: flex;
 	flex-direction: column;
+	padding:5px;
 }
 .screen {
 	width: 100%;
-	height: 20%;
+	height: 80px;
 	border:solid black;
 	display: -webkit-flex;
 	display: -moz-flex;
@@ -49,16 +49,16 @@ body {
 
 .buttons {
 	width: 100%;
-	height: 80%;
 	border:solid black;
 	background-color: #FFF8DC;
+	padding:	30px;
 }
 
 .operators {
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
-	padding: 30px;
+	padding: 0 40px;
 }
 .operators div {
 	display: flex;
